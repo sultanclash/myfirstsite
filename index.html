@@ -15,6 +15,56 @@
     <header class="site-header">
         <h1>My Awesome Site</h1>
     </header>
+    <section id="wonders" class="wonders-section">
+  <h2>Әлемнің жеті кереметі</h2>
+  <div class="wonders-grid">
+    <article class="wonder" data-title="Ұлы Қытай Қорғаны" data-desc="Ұлы Қытай қорғаны — кең әрі ұзақ қорғаныс құрылымы. Шамамен 21 000 км жуық.">
+      <img src="assets/images/great_wall.jpg" alt="Ұлы Қытай Қорғаны">
+      <h3>Ұлы Қытай Қорғаны</h3>
+    </article>
+
+    <article class="wonder" data-title="Петра (Иордания)" data-desc="Петра — тау жартастарынан ойып жасалған ежелгі қала, қызғылт-қоңыр тас архитектурасы бар.">
+      <img src="assets/images/petra.jpg" alt="Петра (Иордания)">
+      <h3>Петра</h3>
+    </article>
+
+    <article class="wonder" data-title="Христос Құтқарушы" data-desc="Рио қаласының үстінде тұрған алып мүсін, бейбітшілік пен үміт нышаны.">
+      <img src="assets/images/christ_redeemer.jpg" alt="Христос Құтқарушы">
+      <h3>Христос Құтқарушы</h3>
+    </article>
+
+    <article class="wonder" data-title="Мачу-Пикчу" data-desc="Инкалар қалдырған таудағы ежелгі қала — 2400м биіктікте, құпиялы атмосферасы бар.">
+      <img src="assets/images/machu_picchu.jpg" alt="Мачу-Пикчу">
+      <h3>Мачу-Пикчу</h3>
+    </article>
+
+    <article class="wonder" data-title="Чичен-Ица" data-desc="Майя өркениетіне тиесілі пирамидалық кешен, астрономиялық маңызға ие.">
+      <img src="assets/images/chichen_itza.jpg" alt="Чичен-Ица">
+      <h3>Чичен-Ица</h3>
+    </article>
+
+    <article class="wonder" data-title="Колизей" data-desc="Ежелгі Римдегі амфитеатр — гладиаторлар ойындары өтетін тарихи ғимарат.">
+      <img src="assets/images/colosseum.jpg" alt="Колизей">
+      <h3>Колизей</h3>
+    </article>
+
+    <article class="wonder" data-title="Тәж Махал" data-desc="Үндістандағы махаббат пен архитектура символы — ақ мәрмәр ғимарат.">
+      <img src="assets/images/taj_mahal.jpg" alt="Тәж Махал">
+      <h3>Тәж Махал</h3>
+    </article>
+  </div>
+</section>
+
+<!-- Modal (жоғарыдан ашылады) -->
+<div id="wonders-modal" class="modal" aria-hidden="true">
+  <div class="modal-content">
+    <button id="modal-close" class="modal-close">×</button>
+    <img id="modal-img" src="" alt="">
+    <h3 id="modal-title"></h3>
+    <p id="modal-desc"></p>
+  </div>
+  <div class="modal-backdrop"></div>
+</div>
 </body>
 <main class="content">
     <p>Басты контент осы жерде тұрады.</p>
