@@ -1,0 +1,27 @@
+:root {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+.site-header {
+    background: #222;
+    color: white;
+    padding: 20px;
+    font-family: "Sixtyfour Convergence", sans-serif;
+}
+.content {
+    padding: 20px;
+    font-size: 18px;
+}
+.site-footer {
+    background: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
